@@ -1,10 +1,3 @@
-Here is **your README.md file**, exactly the same descriptive content but formatted *specifically as a GitHub markdown file*.
-
-You can copy–paste this directly into a file named `README.md`.
-
----
-
-```md
 # AI Resume Matcher — Project Overview
 
 **AI Resume Matcher** is a lightweight, end-to-end system that analyzes a user’s PDF resume and predicts the most suitable job role based on extracted skills and TF-IDF text similarity. It consists of a React frontend, a Node.js backend, and a Python FastAPI microservice for machine-learning processing.
@@ -111,8 +104,5 @@ The frontend displays these results with a clean UI.
 - Performs TF-IDF job role matching  
 - Returns final analysis  
 
----
-
-```
 
 
