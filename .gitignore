@@ -1,4 +1,6 @@
+# =========================
 # Logs
+# =========================
 logs
 *.log
 npm-debug.log*
@@ -7,20 +9,56 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Ignore node_modules everywhere
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
 **/node_modules/
 
-# Build output
-dist
-dist-ssr
+dist/
+dist-ssr/
 **/dist/
 *.local
 
-# Editor directories and files
+# =========================
+# Python / ML
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SentenceTransformer / model weights
+*.pt
+*.bin
+*.h5
+*.ckpt
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors / IDE
+# =========================
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
